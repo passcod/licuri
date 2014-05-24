@@ -1,0 +1,43 @@
+{
+  "name": "licuri",
+  "version": "1.0.2",
+  "description": "Compliant data:uri parser",
+  "keywords": [
+    "data-uri",
+    "parser",
+    "rfc"
+  ],
+  "homepage": "https://github.com/passcod/licuri",
+  "author": "Félix Saparelli <https://passcod.name>",
+  "contributors": [
+    {
+      "name": "Félix Saparelli",
+      "email": "me@passcod.name"
+    }
+  ],
+  "licenses": {
+    "type": "Public Domain",
+    "url": "https://passcod.name/PUBLIC.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/passcod/licuri.git"
+  },
+  "bugs": {
+    "url": "https://github.com/passcod/licuri/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script": "^1.7.1",
+    "pegjs": "^0.8.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "main": "lib.js",
+  "scripts": {
+    "build": "./build.sh",
+    "gen-parser": "./node_modules/.bin/pegjs grammar.pegjs build/grammar.js",
+    "gen-script": "./node_modules/.bin/coffee -bco build *.coffee"
+  }
+}

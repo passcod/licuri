@@ -1,0 +1,5 @@
+/build
+.*.sw*
+~*
+*.log
+node_modules
