@@ -1,5 +1,7 @@
 # Licuri
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/passcod/licuri.svg)](https://greenkeeper.io/)
+
 ![Licuri palm seeds](https://upload.wikimedia.org/wikipedia/commons/b/b2/Licuri.JPG)
 
 _Compliant data:uri parser_
