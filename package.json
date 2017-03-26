@@ -29,7 +29,7 @@
   "dependencies": {},
   "devDependencies": {
     "coffee-script": "^1.7.1",
-    "pegjs": "^0.8.0"
+    "pegjs": "^0.10.0"
   },
   "engines": {
     "node": ">=0.10.0"
